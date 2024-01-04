@@ -1,0 +1,87 @@
+/* Home.css */
+* {
+    margin: 5px 20px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #AFD4E2; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; 
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 70px;
+}
+
+.nav li {
+    margin-right: 10px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+  
+}
+
+.textContent {
+    text-align: left;
+    margin-top: 70px;
+    font-size: 170%; 
+    width: 100%;
+    line-height: 90px;
+}
+
+.content img {
+    align-items: flex-end;
+    width: 40%; 
+    height: auto;
+    margin-left: 20px; 
+    background: blue; 
+}
+
+.buttonContainer {
+    display: flex;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    background:  #1E3240;
+   color:black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button1{
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.button:hover {
+    border: 1px solid #1E3240;
+  
+}

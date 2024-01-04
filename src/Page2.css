@@ -1,0 +1,25 @@
+* {
+    margin: 30px;
+    padding: 0px;
+}
+div {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin-right: 20px;
+    width: 400px;
+    height: 500px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 50px;
+    color: #1E3240;
+}
+
+p {
+    font-size: 20px;
+    color: #1E3240;
+}
