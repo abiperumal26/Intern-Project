@@ -1,18 +1,19 @@
-/* Home.css */
 * {
-    margin: 5px 20px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background: #AFD4E2; 
+    background: #f9fafbfb;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px; 
+    padding: 20px;
+    
 }
 
 .nav {
@@ -20,16 +21,19 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-bottom: 20px;
+    background-color: skyblue;
 }
 
 .nav ul {
     list-style-type: none;
     display: flex;
-    column-gap: 70px;
+    gap: 20px;
 }
 
 .nav li {
-    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .logo {
@@ -39,49 +43,56 @@ body {
 
 .content {
     display: flex;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
-  
+   
 }
 
 .textContent {
-    text-align: left;
-    margin-top: 70px;
-    font-size: 170%; 
-    width: 100%;
-    line-height: 90px;
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    
+    order: 1; /* Content on the left */
 }
 
 .content img {
-    align-items: flex-end;
-    width: 40%; 
+    width: 100%;
+    max-width: 400px;
     height: auto;
-    margin-left: 20px; 
-    background: blue; 
+    margin-top: 20px;
+    order: 2; /* Image on the right */
 }
 
 .buttonContainer {
     display: flex;
+    justify-content: center;
     margin-top: 20px;
 }
 
-.button {
+.button,
+.button1 {
     padding: 10px 20px;
-    margin-right: 20px;
-    background:  #1E3240;
-   color:black;
+    margin: 0 10px;
+    background: #1E3240;
+    color: white;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     cursor: pointer;
-}
-.button1{
-    padding: 10px 20px;
-    margin-right: 20px;
 }
 
 .button:hover {
     border: 1px solid #1E3240;
-  
+}
+
+/* Additional styling for the desired output */
+.nav {
+    margin-bottom: 20px;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+    order: 3; /* Adjusted the order */
 }
