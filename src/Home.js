@@ -1,4 +1,4 @@
-// Home.js
+
 import React from 'react';
 import House from './House1.png';
 import './Home.css';
