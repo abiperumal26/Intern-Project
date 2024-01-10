@@ -29,7 +29,7 @@
     justify-content: space-between;
     gap: 20px;
     width: 100%;
-    max-width: 800px; /* Adjust the max-width as needed */
+    max-width: 800px; 
 }
 
 section {
@@ -59,7 +59,6 @@ ul {
     text-align: center;
 }
 
-/* Additional style to achieve the desired layout */
 .nav-links,
 .details {
     display: flex;
