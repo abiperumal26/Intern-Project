@@ -3,25 +3,25 @@
     display: flex;
     margin: 0px 30px;
     padding: 80px;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    justify-content: center; 
+    align-items: center;
   }
   
   .borderedImage {
     border: 1px solid black;
-    margin: 10px; /* Adjust the margin as needed */
+    margin: 10px; 
   }
   
   .head {
     padding: 100px;
     margin-top: 250px;
-    text-align: justify; /* Justify the text within the .head div */
+    text-align: justify;
   }
   
   .random {
     
     text-align: center;
-    margin: 0 auto; /* Center the text horizontally */
+    margin: 0 auto; 
   }
 .title{
     max-width: 100vw;
