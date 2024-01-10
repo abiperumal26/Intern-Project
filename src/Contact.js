@@ -1,4 +1,4 @@
-// Contact.js
+
 import React from 'react';
 import './Contact.css';
 import contact from './contact.jpg';
