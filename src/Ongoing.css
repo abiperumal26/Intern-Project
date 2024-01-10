@@ -1,35 +1,44 @@
-* {
-    margin: 10px 50px;
+
+*{
+  margin: 0px;
+  padding:0px;
+}
+.contains {
+
+  max-width: 100vw;
+  margin: 0px 30px;
+  text-align: center;
+  border: 1px solid rgb(252, 246, 246);;
+  padding:80px;
 }
 
-.container {
-    position: relative;
-    overflow: hidden;
-}
-.container h1{
-    margin: 0px;
+.Ongo {
+  position: relative;
+  overflow: hidden;
+  margin: 50px;
 }
 
-.sample {
-    display: flex;
-    transition: transform 0.5s ease; 
+.image-slider {
+  display: flex;
+  gap: 80px; /* Adjust the column gap as needed */
+  transition: transform 0.5s ease;
 }
 
-.sample img {
-    width: 40%; 
+.image-slider img {
+  width: 50%;
+ 
 }
 
 .icons {
-    display: flex;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
 }
 
 .icons svg {
-    font-size: 24px;
-    cursor: pointer;
-    margin-right: 10px;
+  font-size: 24px;
+  cursor: pointer;
 }
-
-  

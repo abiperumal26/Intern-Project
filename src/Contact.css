@@ -1,0 +1,53 @@
+
+.contact {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin: 0px 30px;
+    padding:80px;
+}
+
+.contact-image {
+    width: 445px;
+   
+    margin-right: 20px;
+}
+
+.heading {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.sampl {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.input1 {
+    width: 100%; /* Adjust as needed */
+    height: 60px; /* Adjust the height */
+}
+
+input, textarea {
+    width: 100%; /* Adjust as needed */
+    height: 40px; /* Adjust the height */
+    padding: 8px;
+   
+    box-sizing: border-box;
+}
+
+.full-width {
+    width: 100%; /* Adjust as needed */
+    height: 120px; /* Adjust the height */
+}
+.ran{
+    padding:10px;
+    background-color: #1E3240;
+}

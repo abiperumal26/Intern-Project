@@ -1,102 +1,25 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/develop
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: #f9fafbfb;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    
-}
-
-.nav {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    margin-bottom: 20px;
-    background-color: skyblue;
-}
-
-.nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav li {
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-   
-}
-
-.textContent {
-    text-align: center;
-    max-width: 600px;
-    padding: 20px;
-    
-    order: 1; /* Content on the left */
-}
-
-.content img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    margin-top: 20px;
-    order: 2; /* Image on the right */
-}
-
-.buttonContainer {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.button,
-.button1 {
-    padding: 10px 20px;
-    margin: 0 10px;
-    background: #1E3240;
+    padding: 10px;
+    background-color: #333;
     color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.button:hover {
-    border: 1px solid #1E3240;
-}
-
-/* Additional styling for the desired output */
-.nav {
-    margin-bottom: 20px;
-}
-
-.buttonContainer {
-    margin-top: 20px;
-    order: 3; /* Adjusted the order */
-}
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  
+  
