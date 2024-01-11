@@ -30,17 +30,17 @@ const Ongoing = () => {
         <div className="contains">
             <h1>Ongoing projects</h1>
             <p>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
-            
+         <div className='Log'>
+            <FaArrowLeft onClick={handlePrev} /> 
+            <FaArrowRight onClick={handleNext} />
+            </div>
             <div className='Ongo'>
                 <div className='image-slider' style={{ transform: `translateX(-${currentImage * 100}%)` }}>
                     {images.map((image, index) => (
                         <img key={index} src={image} alt={`Card${index + 1}`} />
                     ))}
                 </div>
-                <div className="icons">
-                    <FaArrowLeft onClick={handlePrev} />
-                    <FaArrowRight onClick={handleNext} />
-                </div>
+                
             </div>
         </div>
     );

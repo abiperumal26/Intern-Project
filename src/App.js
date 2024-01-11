@@ -1,5 +1,4 @@
 import React from 'react';
-// import Navbar from './Navbar';
 import Home from './Home';
 import Page2 from './Page2';
 import Ongoing from './Ongoing';
@@ -10,7 +9,7 @@ import Details from './Details';
 const App = () => {
     return (
         <div>
-            {/* <Navbar /> */}
+           
             <Home />
             <Page2 />
             <Ongoing />

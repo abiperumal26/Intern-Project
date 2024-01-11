@@ -1,25 +1,68 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin-right: 20px;
-  }
-  
-  
-  
+.Home {
+  display: flex;
+  flex-direction: column;
+  background-color: #AFD4E2;
+  margin: 30px;
+  padding: 0px;
+}
+
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #AFD4E2;
+}
+
+.Nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.Nav li {
+  cursor: pointer;
+}
+
+.sec {
+  width: 550px;
+  padding: 50px;
+  margin-top: -20px;
+}
+
+.sec h1 {
+  font-size: 80px;
+  line-height: 108px;
+  font-weight: 700;
+}
+
+.Logo {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.but {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.Our, .Us {
+  padding: 10px;
+}
+
+.Our {
+  background-color: #1E3240;
+}
+
+.Us {
+  color: #1E3240;
+}
+
+img {
+  max-width: 500px;
+  margin-top: -500px;
+  float: right;
+}

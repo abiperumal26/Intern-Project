@@ -1,18 +1,32 @@
 import React from 'react';
+import './Home.css';
+import House from './House 1.jpg';
 
 const Home = () => {
   return (
-    <Home>
-      <div className="logo">Lugar</div>
-      <nav>
+    <div className='Home'>
+      <div className='Nav'>
+      <div className='Logo'>LUGAR</div>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Project</li>
-          <li>Contact</li>
+          <li>HOME</li>
+          <li>ABOUT</li>
+          <li>PROJECT</li>
+          <li>CONTACT</li>
         </ul>
-      </nav>
-    </Home>
+      </div>
+      <div className='sec'>
+        
+        <h1>A home is built with love and dreams</h1>
+        <p>Real estate firm that makes your dreams true</p>
+        <div className='but'>
+          <button className='Our'>Our Projects</button>
+          <button className='Us'>Contact Us</button>
+        </div>
+      </div>
+      <div className='button'>
+        <img src={House} alt='House' />
+      </div>
+    </div>
   );
 };
 
