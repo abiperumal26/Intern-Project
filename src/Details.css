@@ -12,8 +12,12 @@
     flex-direction: row;
     gap: 20px;
     width: 100%;
+<<<<<<< HEAD
     max-width: 1000px;
     justify-content: space-around; 
+=======
+    max-width: 800px; 
+>>>>>>> origin/develop
 }
 
 .quick-links-section,
@@ -36,10 +40,15 @@ li {
     text-align: center;
 }
 
+<<<<<<< HEAD
 .quick-links-section li,
 .legal-links-section li,
 .social-media-section li {
     margin-left: 0px;
+=======
+.nav-links,
+.details {
+>>>>>>> origin/develop
     display: flex;
     flex-direction: row; 
     row-gap: 2px;
