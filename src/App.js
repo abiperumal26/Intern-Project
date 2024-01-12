@@ -1,21 +1,20 @@
 import React from 'react';
-import Home from './Home';
-import Page2 from './Page2';
-import Ongoing from './Ongoing';
-import Testimonals from './Testimonals';
-import Contact from './Contact';
-import Details from './Details';
+import Home from './Components/Home';
+import Page2 from './Components/Page2';
+import Ongoing from './Components/Ongoing';
+import Testimonals from './Components/Testimonals';
+import Contact from './Components/Contact';
+import Details from './Components/Details';
 
 const App = () => {
     return (
         <div>
-           
             <Home />
             <Page2 />
             <Ongoing />
             <Testimonals />
-            <Contact/>
-            <Details/>
+            <Contact />
+            <Details />
         </div>
     );
 }

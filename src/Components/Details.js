@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
+import '../Css/Details.css';
 import { IoLocationOutline } from "react-icons/io5";
 import { LuPhone } from "react-icons/lu";
 import { MdOutlineEmail } from "react-icons/md";
-import './Details.css';
 
 const Details = () => {
     return (
@@ -20,7 +20,6 @@ const Details = () => {
                         </li>
                     </ul>
                 </div>
-
                 <div className="quick-links-section">
                     <h2>Quick links</h2>
                     <ul>
@@ -47,9 +46,6 @@ const Details = () => {
                         <li>LinkedIn</li>
                     </ul>
                 </div>
-            </div>
-            <div className="copyright">
-                <p>&copy; 2022 Lugar Inc.</p>
             </div>
         </div>
     );

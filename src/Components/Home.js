@@ -1,12 +1,12 @@
 import React from 'react';
-import './Home.css';
-import House from './House 1.jpg';
+import '../Css/Home.css';
+import House from '../Images/House1.jpg';
 
 const Home = () => {
   return (
     <div className='Home'>
       <div className='Nav'>
-      <div className='Logo'>LUGAR</div>
+        <div className='Logo'>LUGAR</div>
         <ul>
           <li>HOME</li>
           <li>ABOUT</li>
@@ -15,7 +15,6 @@ const Home = () => {
         </ul>
       </div>
       <div className='sec'>
-        
         <h1>A home is built with love and dreams</h1>
         <p>Real estate firm that makes your dreams true</p>
         <div className='but'>

@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/develop
 import React from 'react';
-import './Contact.css';
-import contact from './contact.jpg';
-
+import '../Css/Contact.css';
+import contact from'../Images/contact.jpg';
 const Contact = () => {
     return (
         <>

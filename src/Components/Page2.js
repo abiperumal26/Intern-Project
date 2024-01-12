@@ -1,7 +1,6 @@
 import React from 'react';
-import './Page2.css';
-import left from './left bg.jpg';
-
+import '../Css/Page2.css';
+import left from '../Images/left bg.jpg';
 const Page2 = () => {
     return (
         <div className="page2-container">
