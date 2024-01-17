@@ -56,3 +56,19 @@ p {
 .year {
     font-size: 50px;
 }
+@media (max-width: 768px) {
+    .page2-container {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .content {
+        margin: 10px; 
+    }
+    .content h1{
+        font-size: 20px;
+    }
+    .content p{
+        font-size: 12px;
+    }
+}

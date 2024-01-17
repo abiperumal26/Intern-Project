@@ -13,31 +13,86 @@
     text-align: justify;
     display: flex;
     flex-direction: column;
-    width:500px;
-    padding: 20px;
+    /* width:500px; */
+    padding-left: 620px;
     padding-right:150px;
-   margin-left: auto;
+   margin-left: auto 20%;
    margin-top: -500px;
+   line-height: 30px;
    
   }
+  
 .random {
-  margin:600px 0px 0px -700px;
+  margin:600px 0px 0px -780px;
   width: 100%;
   padding-left:-50px;
  
 
 }
-.title h1{
-  text-align: center;
- 
-  margin: 0px auto;
+.title {
+  display: flex;
+  flex-direction: column;
+   
+  padding-right: -50px; 
 }
-.title p{
-  line-height: 2px;
-  padding:3px;
+
+.title h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.title p {
+  line-height: 2;
+  padding: 10px;
+  text-align: justify;
+  margin-left: 0;
 }
 .sam p{
   padding: 10px;
  
 }
+
+@media (max-width: 768px) {
+  .head {
+    padding-left: 20px; 
+    padding-right: 20px; 
+    margin-top: -50px; 
+  }
+
+  .random {
+    margin: 20px 0px 0px 100px; 
+   
+  }
+
+  .title {
+    padding:20px;
+    text-align: justify;
+  font-size: 10px;
+  }
+
+  .head, .random, .title {
+    padding-left: 20px; 
+    padding-right: 20px; 
+  }
+  .head{
+    padding-top:50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 10px;
+  }
+  .head p{
+ 
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 20px;
+  }
+ .sam h1{
+font-size: 20px;
+ }
+ .sam p{
+  font-size: 15px;
+ }
+}
+
+
 

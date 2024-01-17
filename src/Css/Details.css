@@ -44,3 +44,18 @@ li {
     flex-direction: row; 
     row-gap: 2px;
 }
+@media (max-width: 768px) {
+    .container {
+        margin: 10px 5px; /* Adjust margin for smaller screens */
+    }
+
+    .details {
+        gap: 10px;
+    }
+
+    .quick-links-section,
+    .legal-links-section,
+    .social-media-section {
+        gap: 10px;
+    }
+}

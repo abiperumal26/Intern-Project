@@ -40,3 +40,34 @@ margin-top:550px;
   font-size: 24px;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .Ongo {
+    margin-top: 50px; 
+  }
+  .contains h1{
+    font-size: 20px;
+  }
+  .contains p{
+    font-size: 12px;
+  }
+
+  .Log {
+    margin-left: 0; 
+    margin-top: -10px; 
+  }
+
+  .image-slider {
+    gap: 10px; 
+  }
+
+  .icons {
+    flex-direction: row; 
+    top: auto;
+    transform: none;
+  }
+
+  .icons svg {
+    margin-right: 10px; 
+  }
+}
+

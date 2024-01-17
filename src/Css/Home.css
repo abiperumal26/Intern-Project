@@ -26,7 +26,8 @@
 
 .sec {
   width: 550px;
-  padding: 50px;
+  padding: 40px;
+  margin-left: 80px;
   margin-top: -20px;
 }
 
@@ -65,4 +66,42 @@ img {
   max-width: 500px;
   margin-top: -500px;
   float: right;
+}
+@media (max-width: 768px) {
+  .Home {
+    margin: 10px;
+    width: 100%;
+  }
+
+  .Nav {
+    flex-direction: row; 
+    align-items: flex-start; 
+  }
+  .sec{
+   margin-left: 0px;
+  font-size: 10px;
+   
+   
+  }
+  .Nav ul{
+    display: flex;
+    flex-direction: row;
+  }
+  .sec h1{
+    font-size: 20px;
+
+  }
+
+  .Nav ul,
+  .Logo,
+  .but {
+    width: 100%;
+  }
+
+  .Our, .Us {
+    margin-bottom: 20px; 
+  }
+  img {
+    margin-top: 0; 
+  }
 }
