@@ -55,17 +55,18 @@ input, textarea {
  
     height: 120px; 
 }
-.ran{
-    margin-top: 20px;
-    padding:10px;
-    background-color: #1E3240;
+.button .ran{
+   
     width: Hug (124px);
-height: Hug (53px);
-top: 3566px;
-left: 735px;
-padding: 18px, 24px, 18px, 24px;
-line-height: 20px;
-color: #FFFFFF;
+    height: Hug (53px);
+    top: 3566px;
+    left: 735px;
+    padding: 18px, 24px, 18px, 24px;
+    background-color:  #1E3240;
+    padding: 10px;
+    color: #FFFFFF;
+
+    
 
 
 }

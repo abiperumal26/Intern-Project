@@ -1,7 +1,7 @@
 
 .contains {
   margin: 0px 30px;
-  margin-left: 15%; 
+  margin-left: 13%; 
 }
 .contains h1{
   color: #1E3240;
@@ -71,7 +71,7 @@ height: 450px;
  
 }
 .image-slider .slide:last-child img {
-  width: 200px; /* Adjust the width as needed */
+  width: 200px; 
   overflow: hidden;
 }
 .icons {
