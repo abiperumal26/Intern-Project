@@ -5,6 +5,7 @@ import Ongoing from './Components/Ongoing';
 import Testimonals from './Components/Testimonals';
 import Contact from './Components/Contact';
 import Details from './Components/Details';
+// import Sample from './Components/Sample';
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
             <Testimonals />
             <Contact />
             <Details />
+            {/* <Sample/> */}
         </div>
     );
 }

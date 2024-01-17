@@ -15,7 +15,7 @@ const Details = () => {
                             <IoLocationOutline />
                             2118 Thornridge Cir.<br />
                             Dubai, UAE 35624<br /><br />
-                            <LuPhone />  +33 415 65356 - 9<br /><br />
+                            <LuPhone className='phone' />  +33 415 65356 - 9<br /><br />
                             <MdOutlineEmail />contact@lugar.com
                         </li>
                     </ul>
@@ -46,7 +46,15 @@ const Details = () => {
                         <li>LinkedIn</li>
                     </ul>
                 </div>
+               
             </div>
+            <p style={{
+                marginLeft:'-1020px',
+                padding:'80px',
+                color: '#BDBDBD',
+                marginBottom:'-60px'
+
+            }}>Copyright @ 2022 Lugar Inc.</p>
         </div>
     );
 }

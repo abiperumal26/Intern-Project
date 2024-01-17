@@ -1,32 +1,78 @@
 
 .contains {
   margin: 0px 30px;
-  
-  /* border: 1px solid black; */
-  
+  margin-left: 15%; 
+}
+.contains h1{
+  color: #1E3240;
 }
 .Ongo {
   position: relative;
  padding: 20px;
-margin-top:550px;  
+margin-top:550px; 
 }
 .Log{
   display: flex;
   flex-direction: row;
-  margin-left: 550px;
+  margin-left: 1200px;
   margin-top: -40px;
   cursor: pointer;
+  width: 76px;
+  height: 32px;
+ top: 1715px;
+ left: 1193px;
+ gap: 30px;
+
+}
+.Log.log1{
+  width: 76px;
+  height: 32px;
+  top: 1715px;
+  left: 1193px;
+  padding: 5.33px, 5.33px, 5.33px, 5.33px;
+  color: #AFD4E2;
+}
+.Log.log2{
+  width: 32px;
+height: 32px;
+top: 1715px;
+left: 1237px;
+padding: 5.33px, 5.33px, 5.33px, 5.33px;
+color: #AFD4E2;
+
+}
+.log2{
+  color: #AFD4E2;
+}
+.log1{
+  color: #AFD4E2;
+}
+.contains p{
+ color: #BDBDBD;
+
 }
 
 .image-slider {
   display: flex;
-  gap: 80px; 
-  transition: transform 0.5s ease;
+  gap: 50px; 
+  transition: transform 0.2s ease;
 }
 
 .image-slider img {
-  width: 50%;
+  /* width: 50%;
+  width: 1490px;
+height: 490px;
+top: 1831px; */
+left: 159px;
+width: 350px;
+height: 450px;
+
+
  
+}
+.image-slider .slide:last-child img {
+  width: 200px; /* Adjust the width as needed */
+  overflow: hidden;
 }
 .icons {
   position: absolute;
@@ -40,6 +86,57 @@ margin-top:550px;
   font-size: 24px;
   cursor: pointer;
 }
+.over {
+  
+ 
+   position: absolute; 
+  /* top: 50%;
+  left: 50%; */
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+  display: flex;
+  flex-direction: row;
+  width: 1850px;
+  height: 100px;
+  margin-left: 1010px;
+  column-gap: 100px;
+
+
+
+
+} 
+.over p{
+  /* background-color: white;
+  color: black;
+  border: 1 px solid white;
+  display: flex;
+  flex-direction: column;
+ padding: 10px;
+ margin-top: -40px;
+ width: 75%; */
+ /* background-color: white;
+ color:black;
+ width:15vw;
+ font-size: 10px;
+ padding: 10px;
+ margin-top: -100px; */
+ 
+}
+
+.ram{
+  background-color: white;
+
+ width:15vw;
+ font-size: 10px;
+ padding: 20px;
+ margin-top: -50px;
+line-height: 20px;
+
+margin-left: -11%;
+position: static;
+
+}
+
 @media (max-width: 768px) {
   .Ongo {
     margin-top: 50px; 

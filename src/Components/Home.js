@@ -15,7 +15,7 @@ const Home = () => {
         </ul>
       </div>
       <div className='sec'>
-        <h1>A home is built with love and dreams</h1>
+        <h1>A home is <br/> built with love and dreams</h1>
         <p>Real estate firm that makes your dreams true</p>
         <div className='but'>
           <button className='Our'>Our Projects</button>

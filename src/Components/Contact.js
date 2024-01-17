@@ -28,6 +28,7 @@ const Contact = () => {
                             </div>
                             <div className="button">
                                 <button className='ran'>Get a Quote</button>
+                                <p>We don’t sell your email and spam</p>
                             </div>
                         </div>
                     </div>

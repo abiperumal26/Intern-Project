@@ -1,6 +1,12 @@
 .sam {
     text-align: center;
-    margin-top: -60px;
+    margin-top: -90px;
+    width: 1110px;
+height: 92px;
+top: 2472px;
+left: 158px;
+margin-left: 15%;
+
    
   }
   .test{
@@ -17,16 +23,53 @@
     padding-left: 620px;
     padding-right:150px;
    margin-left: auto 20%;
-   margin-top: -500px;
+   margin-top: -800px;
    line-height: 30px;
+   text-align: justify;
+   width:50%;
    
   }
-  
+  .head h2{
+    margin-left: 90px;
+    font-family: Mulish;
+    width:90%;
+font-size: 32px;
+font-weight: 700px;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+  .head h4{
+    margin-left: 90px;
+   
+  }
+  .head.para{
+    margin-left: 10px;
+  }
+  .head p{
+    margin-left: 80px;
+    font-weight: bold;
+
+   
+
+  }
 .random {
-  margin:600px 0px 0px -780px;
-  width: 100%;
-  padding-left:-50px;
- 
+  /* margin:600px 0px 0px -780px; */
+
+  width: 445px;
+  height: 350px;
+  top: 2642px;
+  left: 158px;
+  margin-top: 500px;
+  margin-left: -7%;
+
+}
+.content h1{
+  width: 540px;
+height: 174px;
+top: 999px;
+left: 735px;
 
 }
 .title {
@@ -48,8 +91,72 @@
   margin-left: 0;
 }
 .sam p{
-  padding: 10px;
+  padding: 5px;
+  font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+color: #1E3240;
+
  
+}
+.arrow{
+  margin-left: -130%;
+  margin-top: -15%;
+  color:#e8e5e5;
+  font-weight: normal;
+}
+
+.logo2{
+  margin-left: 100%;
+  margin-top: -200%;
+  color:#e8e5e5;
+  font-weight: normal;
+ 
+}
+
+.sam h1{
+  font-family: Mulish;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: center;
+color: #1E3240;
+
+
+}
+.head p{
+  font-size: 24px;
+  text-align: justify;
+  line-height: 30px;
+  color: #1E3240;
+  margin-left: -100px;
+  width:82%;
+}
+.head h2{
+  margin-top: -20px;
+  size:32px;
+  color: #1E3240;
+  margin-left: -99px;
+}
+.title{
+  margin-top: 5%;
+   
+}
+.head h4{
+  margin-top: 5px;
+  font-family: Mulish;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #1E3240;
+margin-left: -95px;
+margin-bottom: 1px;
 }
 
 @media (max-width: 768px) {

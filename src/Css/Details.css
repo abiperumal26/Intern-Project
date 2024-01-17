@@ -3,50 +3,73 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    background-color: rgb(24, 83, 117);
+    background-color: #1E3240;
     margin: 10px 30px;
+    padding: 60px;
+    width: 100%;
 }
-
 .details {
     display: flex;
     flex-direction: row;
-    gap: 20px;
     width: 100%;
     max-width: 1000px;
-    justify-content: space-around; 
+    margin-top: -50px;
+    margin-left: 500px;
+  
 }
-
 .quick-links-section,
 .legal-links-section,
 .social-media-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px; 
+    
 }
-
+.details.quick-links-section,
+.details.legal-links-section,
+.details.social-media-section {
+    margin-left: 500px;
+}
+.quick-links-section h2,
+.legal-links-section h2,
+.social-media-section h2 {
+    margin-left: 150px;
+    color: #FFFFFF;
+}
 ul {
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
+    padding: 0px;  
 }
-
 li {
     margin-top: 0px;
     text-align: center;
 }
-
 .quick-links-section li,
 .legal-links-section li,
 .social-media-section li {
-    margin-left: 0px;
     display: flex;
     flex-direction: row; 
-    row-gap: 2px;
+    color:#BDBDBD;
+    margin-left: 150px;   
+}
+.address-section h2{
+    color:#FFFFFF;
+    margin-left: -50px;
+}
+.address-section{
+    margin-left: -60px;
+    color:#BDBDBD;
+}
+.address-section .address li{
+    margin-top: -10px;
+    margin-left: -500px;
+}
+.address-section h2{
+    margin-left: -300px;
 }
 @media (max-width: 768px) {
     .container {
-        margin: 10px 5px; /* Adjust margin for smaller screens */
+        margin: 10px 5px; 
     }
 
     .details {
