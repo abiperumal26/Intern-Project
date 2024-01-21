@@ -16,13 +16,13 @@ const Details = () => {
                             2118 Thornridge Cir.<br />
                             Dubai, UAE 35624<br /><br />
                             <LuPhone className='phone' />  +33 415 65356 - 9<br /><br />
-                            <MdOutlineEmail />contact@lugar.com
+                            <MdOutlineEmail className='email' />contact@lugar.com
                         </li>
                     </ul>
                 </div>
                 <div className="quick-links-section">
                     <h2>Quick links</h2>
-                    <ul>
+                    <ul className='arrange'>
                         <li>Home</li>
                         <li>About</li>
                         <li>Project</li>
@@ -31,7 +31,7 @@ const Details = () => {
                 </div>
                 <div className="legal-links-section">
                     <h2>Legal Links</h2>
-                    <ul>
+                    <ul className='arrange'>
                         <li>Terms</li>
                         <li>Conditions</li>
                         <li>Policy</li>
@@ -39,7 +39,7 @@ const Details = () => {
                 </div>
                 <div className="social-media-section">
                     <h2>Social Media</h2>
-                    <ul>
+                    <ul className='arrange'>
                         <li>Facebook</li>
                         <li>Twitter</li>
                         <li>YouTube</li>
