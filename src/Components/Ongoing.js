@@ -39,7 +39,7 @@ const Ongoing = () => {
   return (
     <div className="contains">
       <h1>Ongoing projects</h1>
-      <p>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
+      <p className='see'>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
       <div className="Log">
         <FaArrowLeft onClick={handlePrev} className="log1" size="40px" />
         <FaArrowRight onClick={handleNext} className="log2" size="40px" />

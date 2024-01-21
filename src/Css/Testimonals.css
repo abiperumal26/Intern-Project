@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .sam {
     text-align: center;
     margin-top: -90px;
@@ -57,12 +61,12 @@ text-align: left;
 .random {
   /* margin:600px 0px 0px -780px; */
 
-  width: 445px;
+  width: 380px;
   height: 350px;
   top: 2642px;
   left: 158px;
-  margin-top: 500px;
-  margin-left: -7%;
+  margin-top: 600px;
+
 
 }
 .content h1{
@@ -137,7 +141,7 @@ color: #1E3240;
   width:82%;
 }
 .head h2{
-  margin-top: -20px;
+  margin-top: -110px;
   size:32px;
   color: #1E3240;
   margin-left: -99px;
@@ -200,6 +204,3 @@ font-size: 20px;
   font-size: 15px;
  }
 }
-
-
-

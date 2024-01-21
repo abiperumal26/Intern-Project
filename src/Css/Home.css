@@ -1,3 +1,4 @@
+
 .Home {
   display: flex;
   flex-direction: column;
@@ -19,6 +20,7 @@
   display: flex;
   gap: 60px;
   color: #1E3240;
+ 
 }
 
 .Nav li {
@@ -100,7 +102,8 @@ color:#1E3240;
 
 img {
   max-width: 500px;
-  margin-top: -500px;
+  
+  margin-top: -596px;
   float: right;
 }
 @media (max-width: 768px) {

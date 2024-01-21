@@ -19,6 +19,7 @@
 .heading {
     width: 50%;
     padding-left: 100px;
+    margin-left: -10px;
 }
 
 
@@ -63,6 +64,7 @@ input, textarea {
     left: 735px;
     padding: 18px, 24px, 18px, 24px;
     background-color:  #1E3240;
+    border: 1px solid #1E3240;
     padding: 10px;
     color: #FFFFFF;
 
