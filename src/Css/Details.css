@@ -14,7 +14,7 @@
     width: 100%;
     max-width: 1000px;
     margin-top: -50px;
-    margin-left: 500px;
+    margin-left: 550px;
    
 }
 .quick-links-section,
@@ -22,18 +22,20 @@
 .social-media-section {
     display: flex;
     flex-direction: column;
+    /* column-gap: 2px; */
     
 }
 .details.quick-links-section,
 .details.legal-links-section,
 .details.social-media-section {
-    margin-left: 500px;
+    margin:10%;
 }
 .quick-links-section h2,
 .legal-links-section h2,
 .social-media-section h2 {
-    margin-left: 150px;
+    margin-left: 185px;
     color: #FFFFFF;
+   
 }
 ul {
     list-style-type: none;
@@ -44,22 +46,23 @@ ul {
 li {
     margin-top: 0px;
     text-align: center;
+    
 }
 .quick-links-section li,
 .legal-links-section li,
 .social-media-section li {
     display: flex;
     flex-direction: row; 
-   
     color:#BDBDBD;
-    margin-left: 150px;   
+    margin-left: 210px;
+    
 }
 .address-section h2{
     color:#FFFFFF;
-    margin-left: -50px;
+  
 }
 .address-section{
-    margin-left: -60px;
+    margin-left: -50px;
     color:#BDBDBD;
 }
 .address-section .address li{
@@ -76,9 +79,17 @@ li {
     margin-top: -10px;
    display: flex;
    flex-direction: column;
-   row-gap: 13px;
+   row-gap: 12px;
 }
-
+.details .address-section .li{
+    display: flex;
+    flex-direction: column;
+   
+ 
+}
+.address-section .address .email .pich{
+margin-left: 30%;
+}
 @media (max-width: 768px) {
     .container {
         margin: 10px 5px; 

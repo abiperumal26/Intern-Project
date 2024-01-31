@@ -7,13 +7,15 @@
     width: 95%;
     padding:10px;
     overflow: hidden;
-   margin-top: 28%;
+   margin-top: 30%;
+   margin-left:7%;
    column-gap:-20px;
+  
 }
 .contact-image {
     width: 445px;
     margin: 80px;
-    margin-left: 15%;
+    margin-left: 9%;
 }
 
 .heading {
@@ -37,6 +39,9 @@ color:#1E3240;
 
 
 }
+.sampl {
+    width: 450px;
+}
 
 .input1 {
     width: 100%;
@@ -49,12 +54,17 @@ input, textarea {
     padding: 8px;
    border:1px solid #1E3240;
     box-sizing: border-box;
+  
    
+}
+.input2 .input-group{
+  
 }
 
 .full-width {
  
     height: 120px; 
+   
 }
 .button .ran{
    
@@ -68,20 +78,27 @@ input, textarea {
     padding: 10px;
     color: #FFFFFF;
 
-    
-
-
+}
+.ran{
+    font-size: 14px;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .heading h2{
 margin-top: -10px;
-        font-family: Mulish;
+        
+    color: #1E3240;
+    font-family: Mulish;
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
     letter-spacing: 0em;
     text-align: left;
-    color: #1E3240;
-    margin-left: -10px;
+    
     
     
 }
@@ -119,32 +136,42 @@ text-align: left;
 color:#BDBDBD;
 
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .contact {
-        flex-direction: column;
-        align-items: flex-start;
-        margin:30px;
+      flex-direction: column;
+      align-items: center;
     }
-    .sampl{
-        margin: 30px;
-        display: flex;
-       
-    }
-
-    .contact-image {
-        width: 100%;
-        margin: 30px;
-    }
-
+  
     .heading {
-        width: 100%;
-        padding-left: 20px;
-        font-size: 15px;
+      text-align: center ;
+     
     }
-
+  
+    .sampl {
+      width: 80%;
+    }
+  
+    .input,
+    .input1,
+    .input2 {
+      width: 100%;
+    }
+  
     .input-group {
-        flex-direction: column;
-        gap: 5px;
-       
+      display: flex;
+      flex-direction: column;
+    
     }
-}
+  
+    .input input,
+    .input1 input,
+    .input1 input,
+    .input2 textarea {
+      width: 100%;
+     
+    }
+  
+    .button {
+    margin-left: 10px;
+    }
+  }

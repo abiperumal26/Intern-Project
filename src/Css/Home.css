@@ -18,8 +18,10 @@
 .Nav ul {
   list-style: none;
   display: flex;
-  gap: 60px;
+  margin-right: 90px;
+  gap: 70px;
   color: #1E3240;
+
  
 }
 
@@ -36,12 +38,12 @@
 
 .sec h1 {
   font-family: Mulish;
-  font-size: 100px;
-  font-weight: 700;
-  line-height: 108px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #1E3240;
+font-size: 90px;
+font-weight: 700;
+line-height: 108px;
+letter-spacing: 0em;
+text-align: left;
+color: #1E3240;
 
   
 }
@@ -73,6 +75,12 @@ margin-left: 15%;
 .Our, .Us {
   padding: 10px;
  margin-top: 20px;
+
+}
+.button img{
+  margin-top: -430px;
+  margin-right:5px;
+
 }
 
 .Our {
@@ -83,6 +91,7 @@ height: Hug (53px);
 top: 572px;
 left: 165px;
 padding: 18px, 24px, 18px, 24px;
+
 
 }
 
@@ -99,13 +108,22 @@ color:#1E3240;
 
 
 }
+.but .Us{
+  background-color:#AFD4E2;
+}
 
 img {
   max-width: 500px;
   
   margin-top: -596px;
   float: right;
-}
+  }
+
+/* .button{
+  width: 200%;
+  margin-right: 10px;
+ 
+} */
 @media (max-width: 768px) {
   .Home {
     margin: 10px;

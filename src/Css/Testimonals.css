@@ -1,22 +1,26 @@
 body {
   overflow-x: hidden;
+
 }
 
 .sam {
     text-align: center;
-    margin-top: -90px;
+    margin-top: -100px;
     width: 1110px;
 height: 92px;
 top: 2472px;
 left: 158px;
-margin-left: 14%;
+margin-left: 8%;
 
    
   }
   .test{
     /* border: 1px solid black; */
-    margin: 30px ;
-    padding: 80px;
+    margin: 0px ;
+    padding: 0px;
+
+    margin: 15%;
+    margin-top: -12px;
   }
  
   .head {
@@ -26,7 +30,7 @@ margin-left: 14%;
     /* width:500px; */
     padding-left: 620px;
     padding-right:150px;
-   margin-left: auto 20%;
+   margin-left: auto 10%;
    margin-top: -800px;
    line-height: 30px;
    text-align: justify;
@@ -114,7 +118,7 @@ color: #1E3240;
 }
 
 .logo2{
-  margin-left: 100%;
+  margin-left: 90%;
   margin-top: -200%;
   color:#e8e5e5;
   font-weight: normal;
@@ -133,12 +137,16 @@ color: #1E3240;
 
 }
 .head p{
-  font-size: 24px;
+  font-size: 18px;
   text-align: justify;
   line-height: 30px;
   color: #1E3240;
   margin-left: -100px;
   width:82%;
+  margin-top: 0px;
+}
+.head.art{
+  margin-top: -20px;
 }
 .head h2{
   margin-top: -110px;
@@ -152,16 +160,29 @@ color: #1E3240;
 }
 .head h4{
   margin-top: 5px;
-  font-family: Mulish;
+ 
+color: #1E3240;
+margin-left: -95px;
+margin-bottom: 1px;
+font-family: Mulish;
 font-size: 24px;
 font-weight: 600;
 line-height: 29px;
 letter-spacing: 0em;
 text-align: left;
-color: #1E3240;
-margin-left: -95px;
-margin-bottom: 1px;
+
 }
+.head .dream{
+  font-family: Mulish;
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: justify;
+color:#1E3240;
+
+}
+
 
 @media (max-width: 768px) {
   .head {

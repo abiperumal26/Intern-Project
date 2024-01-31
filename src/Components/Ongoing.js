@@ -38,11 +38,15 @@ const Ongoing = () => {
 
   return (
     <div className="contains">
-      <h1>Ongoing projects</h1>
-      <p className='see'>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
+      <h1 style={{fontSize:'48px'}}>Ongoing projects</h1>
+      <p className='see'style={{fontSize:'18px'}}>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
       <div className="Log">
-        <FaArrowLeft onClick={handlePrev} className="log1" size="40px" />
-        <FaArrowRight onClick={handleNext} className="log2" size="40px" />
+        <FaArrowLeft onClick={handlePrev} className="log1" size="40px"style={{
+          marginLeft:'-139px',
+         fontWeight:'normal',     
+         marginTop:'-10px'    
+        }} />
+        <FaArrowRight onClick={handleNext} className="log2" size="40px" style={{marginTop:'-10px'}}/>
       </div>
       <div className="Ongo">
         <div className="image-slider" style={{ transform: `translateX(-${currentImage * 100}%)`,
@@ -50,12 +54,39 @@ const Ongoing = () => {
           {images.map((image, index) => (
             <div key={index} className="slide">
               <img src={image} alt={`Card${index + 1}`} />
-              <div className="over">
+              <div className="over"style={{
+
+              }}>
                 <p key={store[index].id} style={{ margin: '5px' }}>
-                  <p className='ram' style={{ color: 'black' }}>{store[index].name}
+                  <p className='ram' style={{   color:'#1E3240' ,
+                fontFamily: 'Mulish',
+                fontSize: '14px',
+                fontWeight: '700',
+                lineHeight: '17px',
+                letterSpacing: '0em',
+                textAlign: 'left',
+                color: '#1E3240'
+                
+                 }}>{store[index].name}
                     <br />
-                    <IoLocationOutline />
-                    {store[index].Address}
+                    <IoLocationOutline  style={{marginLeft:'-4px',
+                  fontFamily: 'Mulish',
+                  fontSize: '10px',
+                  fontWeight: '400',
+                  lineHeight: '12px',
+                  letterSpacing: '0em',
+                  textAlign: 'left',
+                  marginTop:'3px',
+                  color: '#1E3240',
+                 
+                  }}/>
+                    <p style={{
+                      fontSize:'10px',
+                      marginTop:'-16px',
+                      marginLeft:'8px',
+                      color:'#1E3240' 
+
+                    }}>{store[index].Address}</p>
                   </p>
                 </p>
               </div>

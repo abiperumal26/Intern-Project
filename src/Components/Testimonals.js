@@ -13,20 +13,20 @@ const testimonialData = [
     author: "Brooklyn Simmons",
     occupation: "Artist",
   },
-  {
-    image: Rectangle2,
-    title: "Architectural  Rising Elegance",
-    content: "Witness structure gracefully ascending,Where elegance meets architectural brilliance.A harmonious dance of design,In every detail, a story.",
-    author: "Abinaya SendrayaPerumal",
-    occupation: "Engineer",
-  },
-  {
-    image: Rectangle3,
-    title: "Modern Eco-Friendly Living ",
-    content: "Discover a revolutionary living experience where eco-friendly practices blend seamlessly with cutting-edge design, creating a sustainable oasis for mindful living.",
-    author: "Sendraya Perumal",
-    occupation: "Engineer",
-  },
+  // {
+  //   image: Rectangle2,
+  //   title: "Architectural  Rising Elegance",
+  //   content: "Witness structure gracefully ascending,Where elegance meets architectural brilliance.A harmonious dance of design,In every detail, a story.",
+  //   author: "Abinaya SendrayaPerumal",
+  //   occupation: "Engineer",
+  // },
+  // {
+  //   image: Rectangle3,
+  //   title: "Modern Eco-Friendly Living ",
+  //   content: "Discover a revolutionary living experience where eco-friendly practices blend seamlessly with cutting-edge design, creating a sustainable oasis for mindful living.",
+  //   author: "Sendraya Perumal",
+  //   occupation: "Engineer",
+  // },
 ];
 
 const Testimonials = () => {
@@ -44,7 +44,7 @@ const Testimonials = () => {
   const { image, title, content, author, occupation } = testimonialData[currentIndex];
 
   return (
-    <div className='test'>
+    <div className='test' >
       <div className='sam'>
         <h1>Few smiles and comments</h1>
         <p className='sami'>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
@@ -55,9 +55,9 @@ const Testimonials = () => {
         </div>
         <div className='head'>
           <h2>{title}</h2>
-          <p className='dream'>{content}</p>
-          <h4>{author}</h4>
-          <p>{occupation}</p>
+          <p className='dream' >{content}</p>
+          <h4 >{author}</h4>
+          <p className='art'>{occupation}</p>
         </div>
         <div className='arrow' onClick={handlePrev}>
           <FaArrowLeft className='logo1' size="58px" />

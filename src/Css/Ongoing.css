@@ -1,10 +1,11 @@
 
 .contains {
-  margin: 0px 30px;
-  margin-left: 13%; 
+ padding: 0%;;
+  margin:10%; 
 }
 .contains h1{
   color: #1E3240;
+  margin-top: -100px;
   margin-left: 15px;
 }
 .contains .see{
@@ -35,6 +36,7 @@ margin-top:550px;
   left: 1193px;
   padding: 5.33px, 5.33px, 5.33px, 5.33px;
   color: #AFD4E2;
+ 
 }
 .Log.log2{
   width: 32px;
