@@ -6,7 +6,7 @@
 .contains h1{
   color: #1E3240;
   margin-top: -100px;
-  margin-left: 15px;
+  margin-left: 5px;
 }
 .contains .see{
   margin-left:15px;
@@ -66,20 +66,12 @@ color: #AFD4E2;
 }
 
 .image-slider img {
-  /* width: 50%;
-  width: 1490px;
-height: 490px;
-top: 1831px; */
-
 left: 159px;
 width: 350px;
-height: 450px;
-
-
- 
+height: 500px; 
 }
 .image-slider .slide:last-child img {
-  width: 200px; 
+  width: 150px; 
   overflow: hidden;
 }
 .icons {
@@ -98,8 +90,7 @@ height: 450px;
   
  
    position: absolute; 
-  /* top: 50%;
-  left: 50%; */
+
   transform: translate(-50%, -50%);
   z-index: 1; 
   display: flex;
@@ -145,34 +136,72 @@ position: static;
 
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 992px) {
+  .contains h1{
+    margin-top: -130%;
+  }
   .Ongo {
-    margin-top: 50px; 
+    margin-top: -30px; 
   }
   .contains h1{
     font-size: 20px;
+    text-align: center;
   }
   .contains p{
     font-size: 12px;
+    text-align: center;
   }
 
   .Log {
-    margin-left: 0; 
-    margin-top: -10px; 
-  }
-
-  .image-slider {
-    gap: 10px; 
+    margin-left: -40%; 
+    margin-top: 10px; 
+   
   }
 
   .icons {
-    flex-direction: row; 
-    top: auto;
-    transform: none;
-  }
+    position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
 
-  .icons svg {
-    margin-right: 10px; 
+  transform: translateY(-30%);
+}
+.icons svg {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.over {
+  
+ 
+  position: absolute; 
+
+ transform: translate(-50%, -50%);
+ z-index: 1; 
+ display: flex;
+ flex-direction: row;
+ width: 1850px;
+ height: 100px;
+ margin-left: 1010px;
+ column-gap: 100px;
+
+
+
+
+} 
+  .image-slider{
+    margin-top: 640px;
   }
+  .Log{
+    margin-left: 180px;
+  }
+  .contains{
+    margin-top: 550px;
+  }
+  .Log.log1{
+    cursor: pointer;
+  }
+  
 }
 

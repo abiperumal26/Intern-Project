@@ -36,9 +36,11 @@ color: #BDBDBD;
 text-align: justify;
 
 
+
+
 }
 .content {
-    margin: 0px 80px;
+    margin: 0px 50px;
     padding: 20px;
     background-color: white;
     color: #1E3240;
@@ -68,7 +70,7 @@ p {
     margin-top: 20px;
     padding-left: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .dates li,
@@ -86,18 +88,80 @@ p {
     color:#1E3240;;
 }
 @media (max-width: 768px) {
-    .page2-container {
-        flex-direction: column; 
-        align-items: flex-start; 
-    }
-
-    .content {
-        margin: 10px; 
+    .page2-container content{
+     
+        margin-top: 180%;
+        margin-left: -123%;
+       width: 50vw;
+       color:black;
+       font-size: 3px;
     }
     .content h1{
-        font-size: 20px;
-    }
+        margin-top: 180%;
+        margin-left: -123%;
+       width: 50vw;
+       font-size: 40px;
+      
+    }  
     .content p{
-        font-size: 12px;
+        margin-right:50%;
     }
+    .left-image{
+        margin-left:5px ;
+    }
+    @media (max-width: 992px) {
+        
+       .page2-container .content .h1 .p{
+            margin-top: 180%;
+            margin-left: -120%;
+           width: 50vw;
+           font-size: 40px;
+           color:black;
+          
+        } 
+        .content .p{
+            color:black
+        } 
+        .left-image{
+            margin-left:108px ;
+        }
+      
+        .page2-container img{
+            width: 20%;
+            margin: 100px;
+            height: 40%;
+            margin-top: -150px;
+        }
+        .content .h1{
+            font-size: 20px;
+           margin-left: -540px;
+           margin-top: 500px;
+         
+        }
+        .content .p{
+            margin-left: -540px;
+            width: 100%;
+            font-size: 15px;
+           margin-top: -200px;
+        }
+        .content .dates,.year{
+            margin-left: -550px;
+            display: flex;
+          justify-content: left;
+          font-size: 15px;
+          column-gap: 10px;
+        }
+        .page2-container .content{
+            height: 100%;
+        }
+      .content,.year{
+            margin-right: -400px;
+            font-size: 20px;
+            display: flex;
+            justify-content: left;
+            column-gap: 150px;
+           
+        }
+    }
+    
 }

@@ -31,24 +31,26 @@ const Ongoing = () => {
 
   const store = [
     { id: 1, name: 'Ramasamy Villa', Address: '1901 Thornridge Cir. Shiloh 81063' },
-    { id: 2, name: 'Lakshmi Villa', Address: '2715 Ash Dr. San Jose, Dubai' },
-    { id: 3, name: 'Abinaya Villa', Address: '2464 Royal Ln. Mesa, 45463' },
-    { id: 4, name: 'Abi Villa', Address: '2715 Ash Dr. San Jose, Dubai' },
+    { id: 2, name: 'Lakshmi Villa', Address: '2715 Thornridge San Jose, Dubai' },
+    { id: 3, name: 'Abinaya Villa', Address: ' 246 Royal Thornridg.Mesa, 45463' },
+    { id: 4, name: 'Abi Villa', Address: '271 Thornridge. San Jose, Dubai' },
   ];
 
   return (
     <div className="contains">
-      <h1 style={{fontSize:'48px'}}>Ongoing projects</h1>
+      <h1 style={{fontSize:'48px',marginLeft:'1px'}}>Ongoing projects</h1>
       <p className='see'style={{fontSize:'18px'}}>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
-      <div className="Log">
-        <FaArrowLeft onClick={handlePrev} className="log1" size="40px"style={{
-          marginLeft:'-139px',
-         fontWeight:'normal',     
-         marginTop:'-10px'    
+      <div className="Log" >
+        <FaArrowLeft onClick={handlePrev} className="log1" size="80px"style={{
+          marginLeft:'-40px',
+          fontWeight:'normal',     
+          marginTop:'-10px'    
         }} />
-        <FaArrowRight onClick={handleNext} className="log2" size="40px" style={{marginTop:'-10px'}}/>
+        <FaArrowRight onClick={handleNext} className="log2" size="80px" style={{marginTop:'-10px'}}/>
       </div>
-      <div className="Ongo">
+      <div className="Ongo" style={{
+       
+      }}>
         <div className="image-slider" style={{ transform: `translateX(-${currentImage * 100}%)`,
 }}>
           {images.map((image, index) => (
@@ -57,19 +59,21 @@ const Ongoing = () => {
               <div className="over"style={{
 
               }}>
-                <p key={store[index].id} style={{ margin: '5px' }}>
+                <p key={store[index].id} style={{ margin: '5px',marginTop:'40px' }}>
                   <p className='ram' style={{   color:'#1E3240' ,
                 fontFamily: 'Mulish',
                 fontSize: '14px',
                 fontWeight: '700',
                 lineHeight: '17px',
                 letterSpacing: '0em',
-                textAlign: 'left',
-                color: '#1E3240'
+                textAlign: 'center',
+                color: '#1E3240',
+                width:'200px'
                 
                  }}>{store[index].name}
                     <br />
-                    <IoLocationOutline  style={{marginLeft:'-4px',
+                    <IoLocationOutline  style={{
+                  marginLeft:'-150px',
                   fontFamily: 'Mulish',
                   fontSize: '10px',
                   fontWeight: '400',
@@ -83,7 +87,7 @@ const Ongoing = () => {
                     <p style={{
                       fontSize:'10px',
                       marginTop:'-16px',
-                      marginLeft:'8px',
+                      marginLeft:'6px',
                       color:'#1E3240' 
 
                     }}>{store[index].Address}</p>

@@ -33,8 +33,11 @@
 .quick-links-section h2,
 .legal-links-section h2,
 .social-media-section h2 {
-    margin-left: 185px;
+    margin-left: 195px;
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    column-gap: -30px;
    
 }
 ul {
@@ -54,7 +57,7 @@ li {
     display: flex;
     flex-direction: row; 
     color:#BDBDBD;
-    margin-left: 210px;
+    margin-left: 220px;
     
 }
 .address-section h2{
@@ -90,18 +93,35 @@ li {
 .address-section .address .email .pich{
 margin-left: 30%;
 }
-@media (max-width: 768px) {
-    .container {
-        margin: 10px 5px; 
+@media (max-width:768px) {
+    .address-section{
+        margin-left:20px; 
+       
+       
     }
+    .address-section .address li{
+margin-left: -550px;
+font-size: 10px;
 
-    .details {
-        gap: 10px;
-    }
-
-    .quick-links-section,
-    .legal-links-section,
-    .social-media-section {
-        gap: 10px;
-    }
+}
+.quick-links-section h2{
+    margin-left: -200px;
+}
+.legal-links-section h2{
+    margin-left: -320px;
+    margin-top: 180px;
+}
+.social-media-section h2{
+    margin-left: -60px;
+    margin-top: 180px;
+}
+.quick-links-section #quick li{
+    margin-left: -170px;
+}
+.legal-links-section #legal li{
+    margin-left: -300px;
+}
+.social-media-section #social li{
+margin-left: -30px;
+}
 }

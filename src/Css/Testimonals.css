@@ -212,16 +212,69 @@ color:#1E3240;
     padding-right: 0px;
     font-size: 10px;
   }
-  .head p{
  
-    padding-left: 0px;
-    padding-right: 0px;
-    font-size: 20px;
-  }
  .sam h1{
 font-size: 20px;
  }
  .sam p{
   font-size: 15px;
  }
+ .random img{
+  margin-top: -10%;
+  margin-left: 20%;
+  margin-right: 150px;
+ 
+ }
+ .arrow .logo1{
+  margin-left: -30px;
+ }
+ .sam h1{
+  margin-left: -80%
+ }
+ .sam p{
+  margin-left: -80%
+ }
+ .head h2{
+  margin-top: 5%;
+  font-size: 20px;
+  margin: 10px;
+ }
+ .head p{
+  margin-left: -20%;
+margin: 10px;
+font-size: 14px;
+}
+.head .dream{
+  font-size: 18px;
+  margin: 20px;
+  margin-left: -10%;
+}
+.head h4{
+  margin-left: -10%;
+}
+
+}
+@media (max-width: 992px) {
+ 
+
+.head .dream{
+  font-size: 15px;
+  margin: 20px;
+  margin-top: -10px;
+  margin-left: -15%;
+width: 100%;
+}
+.head h4{
+  margin-left: -14%;
+  margin-top: -15px;
+font-size: 15px;
+}
+.head p{
+  font-size: 15px;
+  margin-left: -14%;
+}
+ .sam h1{
+  font-size: 30px;
+
+}
 }

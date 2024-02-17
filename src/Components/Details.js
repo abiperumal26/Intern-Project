@@ -50,7 +50,7 @@ const Details = () => {
                         fontSize:'18px'
 
                     }}>Quick links</h2>
-                    <ul className='arrange'style={{
+                    <ul  id="quick" className='arrange'style={{
                         fontSize:'14px',
                         marginTop:'5px'
                     }}>
@@ -67,7 +67,7 @@ const Details = () => {
                         fontSize:'18px',
                        
                     }}>Legal Links</h2>
-                    <ul className='arrange' style={{
+                    <ul id="legal" className='arrange' style={{
                         fontSize:'14px',
                         marginTop:'5px'
                     }}>
@@ -82,7 +82,7 @@ const Details = () => {
                     <h2 style={{
                         fontSize:'18px'
                     }}>Social Media</h2>
-                    <ul className='arrange'style={{
+                    <ul  id="social" className='arrange'style={{
                         fontSize:'14px',
                         marginTop:'5px'
                     }}>

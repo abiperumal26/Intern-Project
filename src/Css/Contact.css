@@ -174,4 +174,61 @@ color:#BDBDBD;
     .button {
     margin-left: 10px;
     }
-  }
+    .contact .contact-image
+{
+    margin-top: 150%;
+}
+.heading h2{
+    margin-left:-50%;
+}
+.heading p{
+    margin-left: -50%;
+}
+.sampl
+{
+    margin-left: -50%;
+    width: 70vw;
+    
+}
+.button p{
+    margin-left: 30%;
+}
+}
+@media only screen and (max-width: 992px) {
+    .contact h2{
+        font-size: 40px;
+        margin-left: -180px;
+    }
+    .contact p{
+        margin-left: -180px;
+    }
+    .contact ,.contact-image{
+        margin-top: -40px;
+    }
+    .sampl .input,.input1,.input-group{
+        margin-left: -10px;
+    }
+    .input2,.input-group p{
+        margin-left: 200px;
+    }
+    .input,.input-group textarea{
+        margin-top: 60px;
+        margin-left: -210px;
+    }
+
+  
+   
+  
+    
+  
+   
+  
+    
+  
+   
+  
+    
+
+
+
+}

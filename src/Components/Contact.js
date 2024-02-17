@@ -5,8 +5,8 @@ const Contact = () => {
     return (
         <>
             <div className='contact'>
-                <img src={contact} alt="Reactangle6" className='contact-image' />
-                <div className='heading'>
+                <img src={contact} alt="Reactangle6" className='contact-image'/>
+                <div className='heading' style={{marginTop:'25px',marginLeft:'20px'}}>
                     <h2>Contact Us</h2>
                     <p>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
                     <div className='sampl' >
@@ -28,7 +28,12 @@ const Contact = () => {
                             </div>
                             <div className="button">
                                 <button className='ran' style={{
-                                    marginTop:'10px'
+                                    width: 'Hug (127px)',
+                                    height: 'Hug (53px)',
+                                    top: '572px',
+                                    left: '165px',
+                                   
+                                    
                                 }}>Get a Quote</button>
                                 <p style={{
                                     fontSize:'12px',

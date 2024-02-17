@@ -124,42 +124,53 @@ img {
   margin-right: 10px;
  
 } */
-@media (max-width: 768px) {
-  .Home {
-    margin: 10px;
-    width: 100%;
-    
-  }
-
-  .Nav {
-    flex-direction: row; 
-    align-items: flex-start; 
-  }
-  .sec{
-   margin-left: 0px;
+.Logo #ul{
+  font-size: 14px;
+}
+@media (max-width: 992px) {
+ 
+.Logo{
+  margin-left: -1%;
+  margin-bottom: 40px;
   font-size: 10px;
-   
-   
-  }
-  .Nav ul{
-    display: flex;
-    flex-direction: row;
-  }
-  .sec h1{
-    font-size: 20px;
-
-  }
-
-  .Nav ul,
-  .Logo,
-  .but {
-    width: 100%;
-  }
-
+}
+.Logo #ul li{
+  margin-left: -10px;
+  margin-top: -40px;
+  font-size: 10px;
+}
+ 
+  
+ 
   .Our, .Us {
     margin-bottom: 20px; 
+
   }
-  img {
-    margin-top: 0; 
+  .Our{
+    margin-left: -18%;
   }
+  .button img {
+    margin-top: 30px;
+    margin-right: 20%; 
+  }
+ #h1{
+  margin-left: -200px;
+  margin-top: -10px;
+  width: 100%;
+  font-size: 70px;
+
+
+}
+.sec p{
+  margin-left: -30%;
+}
+.button img{
+  width: 70%;
+}
+.Nav,.Logo, #ul li{
+  font-size: 10px;
+  display: flex;
+  justify-content: left;
+  column-gap: 30px;
+}
 }

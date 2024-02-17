@@ -50,7 +50,7 @@ const Testimonials = () => {
         <p className='sami'>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
         <div className='title'>
           <div className='random'>
-            <img src={image} alt={title} />
+            <img src={image} alt={title}  />
           </div>
         </div>
         <div className='head'>
@@ -62,7 +62,10 @@ const Testimonials = () => {
         <div className='arrow' onClick={handlePrev}>
           <FaArrowLeft className='logo1' size="58px" />
         </div>
-        <div className='arrow2' onClick={handleNext}>
+        <div className='arrow2' onClick={handleNext} style={{
+        
+          marginTop:'-50px'
+        }}>
           <FaArrowRight className='logo2' size="58px" />
         </div>
       </div>

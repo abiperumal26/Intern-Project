@@ -11,9 +11,7 @@ const Home = () => {
           fontSize:'18px',
         
         }}>LUGAR</div>
-        <ul style={{
-          fontSize:'14px'
-        }}>
+        <ul  id="ul">
           <li>HOME</li>
           <li>ABOUT</li>
           <li>PROJECT</li>
@@ -22,10 +20,10 @@ const Home = () => {
       </div>
       <div className='sec'>
         <h1 style={{
-          fontSize:'90px',
+         
           font:'Mulish',
         
-        }}>A home is <br/> built with love and dreams</h1>
+        }} id="h1">A home is <br/> built with love <br/>and dreams</h1>
         <p style={{
           fontSize:'18px',
         
