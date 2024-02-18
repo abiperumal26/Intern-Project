@@ -46,16 +46,16 @@ const Testimonials = () => {
   return (
     <div className='test' >
       <div className='sam'>
-        <h1>Few smiles and comments</h1>
-        <p className='sami'>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
+        <h1 id="Few">Few smiles and comments</h1>
+        <p className='sami'id="Turpis">Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
         <div className='title'>
-          <div className='random'>
+          <div className='random'id="image">
             <img src={image} alt={title}  />
           </div>
         </div>
         <div className='head'>
-          <h2>{title}</h2>
-          <p className='dream' >{content}</p>
+          <h2 id="title">{title}</h2>
+          <p className='dream' id="content">{content}</p>
           <h4 >{author}</h4>
           <p className='art'>{occupation}</p>
         </div>

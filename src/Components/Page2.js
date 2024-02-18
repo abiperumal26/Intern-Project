@@ -51,8 +51,8 @@ const Page2 = () => {
     <div className="page2-container" ref={page2Ref}>
       <img src={left} alt="Second" className="left-image" />
       <div className="content">
-        <h1 className='h1'>Award-winning real estate company in Dubai</h1>
-        <p className='p'>Semper arcu mauris aliquam lacus. Massa erat vitae ultrices pharetra scelerisque. Ipsum, turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
+        <h1 className='h1'id="award">Award-winning real estate company in Dubai</h1>
+        <p className='p'id="semper">Semper arcu mauris aliquam lacus. Massa erat vitae ultrices pharetra scelerisque. Ipsum, turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
         <ul className='dates'>
           <li>PREVIOUS PROJECTS</li>
           <li>YEARS EXPERIENCE</li>

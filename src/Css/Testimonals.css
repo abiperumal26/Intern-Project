@@ -273,8 +273,27 @@ font-size: 15px;
   font-size: 15px;
   margin-left: -14%;
 }
- .sam h1{
-  font-size: 30px;
+ .sam #Few{
+  font-size: 20px;
 
+}
+.sam #Turpis{
+  font-size: 12px;
+  margin-top: -40px;
+}
+.title #image{
+  width: 10vw;
+  height: 30vh;
+  margin-left: 410px;
+  margin-top: -40px;
+}
+.head #title{
+  margin-top: 120px;
+  font-size: 15px;
+  margin-left: -80px;
+}
+.head #content{
+  width: 70%;
+  font-size: 12px;
 }
 }

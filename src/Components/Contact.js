@@ -27,19 +27,8 @@ const Contact = () => {
                                 <textarea placeholder='Description' className='full-width' />
                             </div>
                             <div className="button">
-                                <button className='ran' style={{
-                                    width: 'Hug (127px)',
-                                    height: 'Hug (53px)',
-                                    top: '572px',
-                                    left: '165px',
-                                   
-                                    
-                                }}>Get a Quote</button>
-                                <p style={{
-                                    fontSize:'12px',
-                                    paddingTop:'5px',
-                                   
-                                }}>We don’t sell your email and spam</p>
+                                <button className='ran'id="Get" >Get a Quote</button>
+                                <p id="we">We don’t sell your email and spam</p>
                             </div>
                         </div>
                     </div>

@@ -38,8 +38,8 @@ const Ongoing = () => {
 
   return (
     <div className="contains">
-      <h1 style={{fontSize:'48px',marginLeft:'1px'}}>Ongoing projects</h1>
-      <p className='see'style={{fontSize:'18px'}}>Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
+      <h1 id="on">Ongoing projects</h1>
+      <p className='see'id="Turpis">Turpis facilisis tempor pulvinar in lobortis ornare magna.</p>
       <div className="Log" >
         <FaArrowLeft onClick={handlePrev} className="log1" size="80px"style={{
           marginLeft:'-40px',

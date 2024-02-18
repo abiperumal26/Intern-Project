@@ -6,11 +6,7 @@ const Home = () => {
   return (
     <div className='Home'>
       <div className='Nav'>
-        <div className='Logo' style={{
-          marginTop:'40px',
-          fontSize:'18px',
-        
-        }}>LUGAR</div>
+        <div className='Logo'id="Lugar">LUGAR</div>
         <ul  id="ul">
           <li>HOME</li>
           <li>ABOUT</li>
@@ -24,10 +20,7 @@ const Home = () => {
           font:'Mulish',
         
         }} id="h1">A home is <br/> built with love <br/>and dreams</h1>
-        <p style={{
-          fontSize:'18px',
-        
-        }}>Real estate firm that makes your dreams true</p>
+        <p id="pa">Real estate firm that makes your dreams true</p>
         <div className='but' style={{
         
         }}>

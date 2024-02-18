@@ -124,4 +124,7 @@ font-size: 10px;
 .social-media-section #social li{
 margin-left: -30px;
 }
+.container #copy{
+    margin-left: -300px;
+}
 }

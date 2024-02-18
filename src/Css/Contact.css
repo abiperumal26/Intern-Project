@@ -128,13 +128,21 @@ text-align: left;
 .button p{
     margin-left: 120px;
     font-family: Mulish;
-font-size: 12px;
+
 font-weight: 400;
 line-height: 15px;
 letter-spacing: 0em;
 text-align: left;
 color:#BDBDBD;
+font-size:'12px';
+padding-top:'5px';
 
+}
+.button .ran{
+    width: 'Hug (127px)';
+    height: 'Hug (53px)';
+    top: '572px';
+    left: '165px';
 }
 @media only screen and (max-width: 768px) {
     .contact {
@@ -197,16 +205,18 @@ color:#BDBDBD;
 @media only screen and (max-width: 992px) {
     .contact h2{
         font-size: 40px;
-        margin-left: -180px;
+        margin-left: -150px;
+        font-size: 20px;
+        margin-top: -100px;
     }
     .contact p{
-        margin-left: -180px;
+        margin-left: -160px;
+        font-size: 15px;
+        width: 100%;
     }
-    .contact ,.contact-image{
-        margin-top: -40px;
-    }
+   
     .sampl .input,.input1,.input-group{
-        margin-left: -10px;
+        margin-left: -20px;
     }
     .input2,.input-group p{
         margin-left: 200px;
@@ -215,20 +225,33 @@ color:#BDBDBD;
         margin-top: 60px;
         margin-left: -210px;
     }
-
-  
-   
-  
-    
-  
-   
-  
-    
-  
-   
-  
-    
-
-
-
+    .contact .contact-image{
+        width: 100%;
+        height:40%;
+        margin-top: 440px;
+        margin-left: -200px;
+    }
+    .button #Get{
+        margin-left: -235px;
+    }
+    .button #we{
+        margin-left: -130px;
+        font-size: 12px;
+    }
 }
+
+  
+   
+  
+    
+  
+   
+  
+    
+  
+   
+  
+    
+
+
+

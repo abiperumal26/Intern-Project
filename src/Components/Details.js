@@ -102,7 +102,7 @@ const Details = () => {
                 fontSize:'12px',
                 
 
-            }}>Copyright @ 2022 Lugar Inc.</p>
+            }}id="copy">Copyright @ 2022 Lugar Inc.</p>
         </div>
     );
 }
